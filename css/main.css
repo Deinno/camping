@@ -168,13 +168,10 @@ body{
 }
 
 .subscribe{
-    /*padding: 2rem 6rem;*/
     border-radius: 2rem;
     background: var(--clr-inner-bg);
 }
-.subscribe-content{
-    width: 90vw;
-}
+
 
 .in-touch{
     display: grid;
@@ -186,7 +183,7 @@ body{
 
 .subscribe-title{
     font-size: clamp(2rem, 2.25rem, var(--fs-lg));
-    width: min(80% 90% 100%);
+    width: min(80%, 90%, 100%);
 }
 .subscribe-image{
     display: block;
